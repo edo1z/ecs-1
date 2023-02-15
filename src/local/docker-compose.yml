@@ -1,0 +1,10 @@
+version: "3"
+services:
+  container-a:
+    build: ../container-a
+    ports:
+      - "3000:3000"
+  container-b:
+    build: ../container-b
+    ports:
+      - "3023:3000"
